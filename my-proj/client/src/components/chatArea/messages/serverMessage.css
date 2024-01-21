@@ -1,0 +1,15 @@
+.server-msg {
+	background-color: hotpink;
+	text-align: right;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	width:  40%;
+	float: left;
+	display:  block;
+	margin-right: 20px;
+	clear: both;
+}
+.my-div {
+	background-color: blue;
+	width:100%;
+}

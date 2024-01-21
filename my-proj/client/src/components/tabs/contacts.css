@@ -1,0 +1,80 @@
+
+.input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left:5px;
+  margin-top:12px;
+  /* margin-right:8px; */
+  }
+
+
+.list-container {
+  margin-bottom: 10px;
+  height:100vh;
+
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.add-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.add-item:hover {
+  background-color: #555;
+}
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    white-space: nowrap; /* Prevent line breaks within cells */
+  }
+  
+  .table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
+.group-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .group-buttons button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color:#333;
+    cursor: pointer;
+  }
+  
+  .group-buttons button.selected {
+    background-color: #4caf50; /* Green color as an example */
+    color: #fff;
+    border-color: #4caf50;
+  }
+  .input[type="text"] {
+    font-size: 15px; 
+  }
+ 

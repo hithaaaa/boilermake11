@@ -1,0 +1,17 @@
+.client-msg {
+
+
+	background-color: beige;
+  text-align: left;
+  display: block;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  width: 40%;
+  float: right;
+  margin-right: 20px;
+  clear: both; /* Add this property to clear floats */
+}
+
+.my-div {
+	width:100%;
+}

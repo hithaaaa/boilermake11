@@ -1,0 +1,52 @@
+/* Sidebar.css */
+
+.parent {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  padding-top:40px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column; /* Arrange content in a column */
+  width: 100%; /* Take up the remaining width */
+  margin-left: 200px; /* Adjust based on the width of the sidebar */
+  overflow-y: auto; /* Enable vertical scrolling for content */
+}
+
+.content {
+  background-color: beige;
+  /* margin: 20px;
+  padding: 20px; */
+  padding-left:200px;
+  width: 100%; /* Take up the entire width of the content container */
+}
+
+.sidebar-items,
+.content-items {
+  padding-top: 20px; /* Adjust as needed */
+  margin:20px;
+}
+
+.sidebar-item {
+  padding: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  background-color: #555;
+}
+
+.title {
+  padding-bottom: 4px;
+}
